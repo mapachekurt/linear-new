@@ -2,6 +2,8 @@
 
 This repository is a minimal Google ADK-style agent for future Linear + Slack integrations. It targets the `mapache-app` project and deploys to Vertex AI Agent Engine using the source-files flow (no staging bucket).
 
+**Included files**: `linear_agent/agent.py` (agent + tool), `deploy_agent.py` (source-package deployment), `requirements.txt`, and this README.
+
 ## Setup
 
 ```bash
