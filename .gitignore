@@ -1,0 +1,21 @@
+# Environments
+.env
+.venv
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDX
+.idx/
