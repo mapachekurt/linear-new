@@ -1,5 +1,5 @@
-"""Linear skeleton agent package for Vertex AI Agent Engine."""
+"""Linear ADK skeleton agent package."""
 
-from .agent import ping_linear, root_agent
+from .agent import app, root_agent, ping_linear
 
-__all__ = ["ping_linear", "root_agent"]
+__all__ = ["app", "root_agent", "ping_linear"]
