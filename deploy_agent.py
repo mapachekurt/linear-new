@@ -29,7 +29,7 @@ def main() -> None:
 
     class_methods: List[Dict[str, Any]] = [
         {
-            "name": "ping",
+            "name": "ping_linear",
             "api_mode": "",
             "parameters": {
                 "type": "object",
