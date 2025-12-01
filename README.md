@@ -58,6 +58,7 @@ After deployment, create a client and stream a simple query to call `ping_linear
 
 ```python
 from vertexai import agent_engines
+import asyncio
 
 PROJECT_ID = "your-project-id"
 LOCATION = "us-central1"
@@ -71,6 +72,8 @@ async def main():
         message="Ping the Linear agent",
     ):
         print(event)
+
+asyncio.run(main())
 ```
 
 This is intentionally minimal; future iterations will add Linear and Slack integrations.
