@@ -50,7 +50,7 @@ PROJECT_ID = "mapache-app"  # adjust if needed
 LOCATION = "us-central1"
 
 client = vertexai.Client(project=PROJECT_ID, location=LOCATION)
-remote_agent = client.agent_engines.get(name="projects/{PROJECT_ID}/locations/{LOCATION}/reasoningEngines/<ENGINE_ID>")
+remote_agent = client.agent_engines.get(name=f"projects/{PROJECT_ID}/locations/{LOCATION}/reasoningEngines/<ENGINE_ID>")
 
 async def main():
     async for event in remote_agent.app.async_stream_query(
