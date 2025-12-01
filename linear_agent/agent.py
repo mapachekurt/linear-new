@@ -11,8 +11,7 @@ def ping_linear(message: str = "Hello from the Linear ADK skeleton agent") -> st
 
 
 root_agent: Agent = Agent(
-    model="gemini-2.0-flash",
-    name="linear_adk_skeleton_agent",
+    model="gemini-1.5-flash-001",    name="linear_adk_skeleton_agent",
     tools=[ping_linear],
 )
 
