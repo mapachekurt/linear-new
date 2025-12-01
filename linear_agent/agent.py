@@ -5,7 +5,7 @@ from typing import Optional
 from google.adk.agents import Agent
 
 
-DEFAULT_MODEL = "gemini-2.0-flash"
+DEFAULT_MODEL = "gemini-1.5-flash-001"
 DEFAULT_INSTRUCTIONS = (
     "You are a minimal Linear skeleton agent. You only provide a ping_linear tool for basic connectivity tests."
 )
